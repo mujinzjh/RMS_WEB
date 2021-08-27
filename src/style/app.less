@@ -1,0 +1,26 @@
+/*
+ * File: app.less
+ * Desc: 描述
+ * File Created: 2020-07-26 18:27:37
+ * Author: yezi
+ * ------
+ * Copyright 2020 - present, yezi
+ */
+@prefix: app;
+
+.@{prefix} {
+    &_layout {
+        flex-direction: column;
+        // overflow: auto;
+
+        &_content {
+            padding: 0 16px;
+            overflow: auto;
+            flex: 1 1 0;
+        }
+
+        &_foot {
+            text-align: center;
+        }
+    }
+}
