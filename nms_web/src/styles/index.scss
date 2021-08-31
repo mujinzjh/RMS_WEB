@@ -1,1 +1,9 @@
 @import './variables.scss';
+#root {
+  height:$WINDOWHEIGHT;
+}
+.ant-btn-primary {
+  height:$LINE_HEIGHT;
+  line-height:$LINE_HEIGHT;
+  width:100%;
+}
