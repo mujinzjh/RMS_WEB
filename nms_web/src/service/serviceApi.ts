@@ -3,7 +3,7 @@ interface apiInterface {
 }
 
 const API: apiInterface = {
-  login: {
+  'loginUrl': {
     url: '/login',
     method: 'post'
   }

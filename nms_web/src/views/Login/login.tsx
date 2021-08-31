@@ -11,7 +11,7 @@ const Login = () => {
   const history = useHistory();
   const onFinish = (values: any) => {
     if (values) {
-      axiosHttpUtil(serviceApi.login, values).then((res: any) => {
+      axiosHttpUtil(serviceApi.loginUrl, values).then((res: any) => {
         console.log(res)
       }).catch((err: any) => {
         console.log(err);
